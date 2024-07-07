@@ -1,0 +1,51 @@
+{
+  "name": "pay-api-marketing-site",
+  "private": true,
+  "description": "Multi-page marketing site for payAPI built with Gatsby",
+  "version": "1.0.2",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preload-fonts": "gatsby-preload-fonts"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.24.85",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-manifest": "^2.4.37",
+    "gatsby-plugin-preload-fonts": "^1.2.30",
+    "gatsby-plugin-sharp": "^2.6.43",
+    "gatsby-plugin-styled-components": "^3.6.0",
+    "gatsby-plugin-typography": "^2.8.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-typography": "^0.16.19",
+    "styled-components": "^5.2.0",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianninetorres/payapi-landing-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "homepage": "https://payapi-landing-page.jianninetorres.vercel.app/",
+  "main": "gatsby-browser.js",
+  "keywords": [
+    "payapi",
+    "gatsby",
+    "marketing",
+    "site"
+  ],
+  "author": "Jiannine Torres"
+}
